@@ -3,38 +3,349 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Ahmad Ali Khan | Data Scientist</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Simple Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <!-- Profile image placeholder -->
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h1>Ahmad Ali Khan</h1>
+                        <p class="tagline">Data Science Specialist</p>
+                        <div class="rating">
+                            <span class="skill">ML</span>
+                            <span class="rating-stars">★★★★☆</span>
+                            <span class="skill">Python</span>
+                            <span class="rating-stars">★★★★★</span>
+                            <span class="skill">Data Analytics</span>
+                            <span class="rating-stars">★★★★☆</span>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>WELCOME TO MY PORTFOLIO</h2>
+                <p>Data Science undergraduate with expertise in Machine Learning, Deep Learning, and Data Analytics</p>
+                <div class="buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home section of the website. You can add more content here.</p>
-    </section>
+        <section id="about" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-user-circle"></i> About Me</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Data Science undergraduate student at Ghulam Ishaq Khan Institute of Engineering Sciences and Technology with experience in Machine Learning, Deep Learning, and Data Analytics. Proficient in C++, Python, SQL, MongoDB, R, and deep learning frameworks like Keras, PyTorch, and TensorFlow.</p>
+                    <p>Currently conducting research on a hybrid model combining VGG-16 and Minimal Gated Units (MGUs) for action detection, showcasing innovation in deep learning.</p>
+                    <p>Strong communicator and exploring data-driven solutions to real-world challenges through applied research.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-value">4+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">3+</span>
+                        <span class="stat-label">Years Coding</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">4+</span>
+                        <span class="stat-label">Volunteering Roles</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About</h2>
-        <p>This is the about section. Here you can describe yourself or your website.</p>
-    </section>
+        <section id="education" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="education-items">
+                <div class="education-item">
+                    <div class="edu-date">Sep 2022 - Present</div>
+                    <div class="edu-content">
+                        <h3>Bachelor of Science in Data Science</h3>
+                        <p>Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, Topi, Pakistan</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="edu-date">Apr 2017 - Jul 2022</div>
+                    <div class="edu-content">
+                        <h3>Intermediate</h3>
+                        <p>Pakistan Air Force College Sargodha, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to contact us at <a href="mailto:contact@example.com">contact@example.com</a></p>
-    </section>
+        <section id="projects" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-code-branch"></i> Projects</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Action Detection System</h3>
+                        <div class="project-tags">
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                    <p>Built an action detection system combining VGG-16 CNN and Minimal Gated Unit (MGU) model, improving classification accuracy for human actions in video sequences.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Learning Management System</h3>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>OOP</span>
+                        </div>
+                    </div>
+                    <p>Developed a Learning Management System using C++ with object-oriented principles. Implemented features including user/course management, quiz conduction, attendance tracking, and grading.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Hotel Reservation System</h3>
+                        <div class="project-tags">
+                            <span>SQL</span>
+                            <span>UI/UX</span>
+                        </div>
+                    </div>
+                    <p>Developed a hotel reservation system supporting real-time bookings and administrative features using SQL for data storage and a responsive interface.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Giki AI Influencer</h3>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>Stable Diffusion</span>
+                        </div>
+                    </div>
+                    <p>Created an AI influencer tailored for GIKI using stable diffusion 2.5, fine-tuned the existing model, trained it on our own model's data.</p>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 My Simple Website</p>
-    </footer>
+        <section id="skills" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">R</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Keras</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scikit-Learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Manipulation & Visualization</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Matplotlib</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PowerBI</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="volunteering" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-hands-helping"></i> Volunteering</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="volunteering-items">
+                <div class="volunteering-item">
+                    <div class="vol-date">2022 - Present</div>
+                    <div class="vol-content">
+                        <h3>ACM GIKI Chapter</h3>
+                        <p class="vol-role">Active Member</p>
+                        <p>Contributing to a stable diffusion AI Influencer at the Development Cell of ACM GIKI.</p>
+                    </div>
+                </div>
+                <div class="volunteering-item">
+                    <div class="vol-date">2022 - Present</div>
+                    <div class="vol-content">
+                        <h3>Project Topi</h3>
+                        <p class="vol-role">Member</p>
+                        <p>Participated in student welfare and community service projects.</p>
+                    </div>
+                </div>
+                <div class="volunteering-item">
+                    <div class="vol-date">2022 - Present</div>
+                    <div class="vol-content">
+                        <h3>Media Club GIKI</h3>
+                        <p class="vol-role">Member</p>
+                        <p>Engaged in media production, event coverage, and content creation.</p>
+                    </div>
+                </div>
+                <div class="volunteering-item">
+                    <div class="vol-date">2022 - Present</div>
+                    <div class="vol-content">
+                        <h3>Urdu Debating Team GIKI</h3>
+                        <p class="vol-role">Captain</p>
+                        <p>Led the team in multiple debate competitions, enhancing public speaking and argumentation skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <div class="section-header">
+                <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+                <div class="section-header-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+92(320)-5657827</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>ahmad3686s@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://linkedin.com/in/ahmad-ali-khan" target="_blank">linkedin.com/in/ahmad-ali-khan</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/AHMAD-ALYY" target="_blank">github.com/AHMAD-ALYY</a></p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Ahmad Ali Khan | Data Scientist</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/ahmad-ali-khan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/AHMAD-ALYY" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
